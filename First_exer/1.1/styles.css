@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('TiltNeon-Regular.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'MyFont', sans-serif;
 }
 
 .container{
@@ -81,12 +86,10 @@
 
 .instagram:hover{
     background-color: #fff;
-    transition: 1s;
-    color:black
+    color:black;
 }
 
 .instagram .btn:hover{
-    transition: 1s;
     background-color: black;
     color: #fff;
 }
